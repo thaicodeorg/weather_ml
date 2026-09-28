@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sources/Youtube/WeatherModels/Reanalysis (ERA5), Data Simulation and Emulators.md",
+                "file": "Fleeting Notes/NotebookLM/09282026 - weather forecase models machine learning thai.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reanalysis (ERA5), Data Simulation and Emulators"
-            }
-          }
-        ]
-      },
-      {
-        "id": "28426ef4f9c5b01d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "53e303c993708724",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/AI-Search/09282026 ERA 5.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "09282026 ERA 5"
+              "title": "09282026 - weather forecase models machine learning thai"
             }
           }
         ]
@@ -103,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 447.5
+    "width": 200
   },
   "right": {
     "id": "fa856299c7a9afe1",
@@ -211,11 +191,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "53e303c993708724",
+  "active": "b433fb1c9f1dbb8d",
   "lastOpenFiles": [
-    "Files/images/Pasted image 20260928210019.png",
-    "Sources/Youtube/WeatherModels/Reanalysis (ERA5), Data Simulation and Emulators.md",
+    "Fleeting Notes/AI-Search/09282026-AnemoI.md",
+    "Fleeting Notes/NotebookLM/09282026 - weather forecase models machine learning thai.md",
+    "Fleeting Notes/NotebookLM",
+    "Files/images/Pasted image 20260928220156.png",
+    "Docs/Anemoi Training/4_Training_Aneomoi.pdf",
+    "Docs/Anemoi Training/Unconfirmed 222456.crdownload",
+    "Docs/Anemoi Training",
+    "Docs/New folder",
     "Fleeting Notes/AI-Search/09282026 ERA 5.md",
+    "Fleeting Notes/AI-Search/Untitled 1.md",
+    "Sources/Youtube/WeatherModels/Reanalysis (ERA5), Data Simulation and Emulators.md",
+    "Sources/Youtube/Bangkok2026/ไหนว่าเอาอยู่!! น้ำท่วมหลายพื้นที่ กรุงเทพยังวิกฤต l EP.2289 l 28 ก.ย.69 lโหนกระแส.md",
+    "Clippings",
+    "Files/images/Pasted image 20260928210019.png",
     "Files/images/Pasted image 20260928205256.png",
     "Fleeting Notes/abstract_Index/09282026 An Enhanced Hybrid CNN–LSTM Model for Improved Precipitation Forecasting.md",
     "Sources/Research Paper/mdpi.com/algorithms-19-00394-v2.pdf",
@@ -238,17 +229,8 @@
     "Sources/Research Paper/mdpi.com/Unconfirmed 404418.crdownload",
     "Sources/Research Paper/mdpi.com/atmosphere-17-00783.pdf",
     "Sources/Research Paper/mdpi.com/atmosphere-17-00762-v2.pdf",
-    "Sources/Research Paper/mdpi.com",
-    "Sources/Research Paper/arxiv.org/2510.22855v2-review-of-neural-networks-in-precipitation-prediction.pdf",
-    "Sources/Research Paper/arxiv.org/Unconfirmed 892808.crdownload",
-    "Sources/Research Paper/icic/ijicic-220401.pdf",
     "Templates/Source.md",
     "Sources/Youtube/WeatherModels/AI & Weather Prediction - UK Weather - Met Office Explains.md",
-    "Sources/Youtube/Bangkok2026/น้ำท่วม กทม.โทษใคร!ผ่าความจริง จังหวะนรก ที่ไม่มีใครบอก.md",
-    "Sources/Youtube/WeatherModels",
-    "Sources/Youtube/WeatherModels/Improving the Physical Realism of AI Weather Forecasts Scott Hosking at AI for Science.md",
-    "Sources/Youtube/Bangkok2026",
-    "Templates/Fleeting Note.md",
-    "Templates/AI Log.md"
+    "Sources/Youtube/Bangkok2026/น้ำท่วม กทม.โทษใคร!ผ่าความจริง จังหวะนรก ที่ไม่มีใครบอก.md"
   ]
 }
