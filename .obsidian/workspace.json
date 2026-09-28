@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "d264b03f521a5e39",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d37cbf1cf8c84a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b433fb1c9f1dbb8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sources/Youtube/WeatherModels/Reanalysis (ERA5), Data Simulation and Emulators.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reanalysis (ERA5), Data Simulation and Emulators"
+            }
+          }
+        ]
+      },
+      {
+        "id": "28426ef4f9c5b01d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53e303c993708724",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/AI-Search/09282026 ERA 5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "09282026 ERA 5"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "02b0403d9f39cd13",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c1cc13441f57f84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3c24cf72e37c89a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "dbc29d2a20f38191",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "722401c23caf751b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 447.5
+  },
+  "right": {
+    "id": "fa856299c7a9afe1",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f1a95f17667b448",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b15cc9c70e4f35f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Fleeting Notes/AI-Search/09282026 ERA 5.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "5aa583dc21d7d6c6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Fleeting Notes/AI-Search/09282026 ERA 5.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "cb9bf5c69a974d9b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e69f367d653a7138",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "10cca1f453ed8c40",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Fleeting Notes/AI-Search/09282026 ERA 5.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "53e303c993708724",
+  "lastOpenFiles": [
+    "Files/images/Pasted image 20260928210019.png",
+    "Sources/Youtube/WeatherModels/Reanalysis (ERA5), Data Simulation and Emulators.md",
+    "Fleeting Notes/AI-Search/09282026 ERA 5.md",
+    "Files/images/Pasted image 20260928205256.png",
+    "Fleeting Notes/abstract_Index/09282026 An Enhanced Hybrid CNN–LSTM Model for Improved Precipitation Forecasting.md",
+    "Sources/Research Paper/mdpi.com/algorithms-19-00394-v2.pdf",
+    "Literatures Notes/index.md",
+    "index.md",
+    "Tech Folk Insights.md",
+    "AGENTS.md",
+    "log.md",
+    "Fleeting Notes/AI-Search/Fastnet vs Alan Tunring.md",
+    "Fleeting Notes/Chat/2026-09-27-graphcast-deprecation.md",
+    "Fleeting Notes/สรยุทธ สุทัศนะจินดา กรรมกรข่าว.md",
+    "Fleeting Notes/Money Chat Thailand.md",
+    "Fleeting Notes/index.md",
+    "Fleeting Notes/Chat/09272026-Deepseek Research.md",
+    "Fleeting Notes/AI-Search/09282026-rapid progress over the past few year in ML models for NwP.md",
+    "Fleeting Notes/AI-Search/09282026 Quantitative prediction forcasting.md",
+    "Fleeting Notes/abstract_Index/09282026-a cascade machine learning forecasting system for 15-day global weather forecast.md",
+    "Fleeting Notes/abstract_Index/09282026-review-of-neural-networks in Precipitation Predictin.md",
+    "Templates/Abstract Reviews.md",
+    "Sources/Research Paper/mdpi.com/Unconfirmed 404418.crdownload",
+    "Sources/Research Paper/mdpi.com/atmosphere-17-00783.pdf",
+    "Sources/Research Paper/mdpi.com/atmosphere-17-00762-v2.pdf",
+    "Sources/Research Paper/mdpi.com",
+    "Sources/Research Paper/arxiv.org/2510.22855v2-review-of-neural-networks-in-precipitation-prediction.pdf",
+    "Sources/Research Paper/arxiv.org/Unconfirmed 892808.crdownload",
+    "Sources/Research Paper/icic/ijicic-220401.pdf",
+    "Templates/Source.md",
+    "Sources/Youtube/WeatherModels/AI & Weather Prediction - UK Weather - Met Office Explains.md",
+    "Sources/Youtube/Bangkok2026/น้ำท่วม กทม.โทษใคร!ผ่าความจริง จังหวะนรก ที่ไม่มีใครบอก.md",
+    "Sources/Youtube/WeatherModels",
+    "Sources/Youtube/WeatherModels/Improving the Physical Realism of AI Weather Forecasts Scott Hosking at AI for Science.md",
+    "Sources/Youtube/Bangkok2026",
+    "Templates/Fleeting Note.md",
+    "Templates/AI Log.md"
+  ]
+}

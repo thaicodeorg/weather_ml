@@ -1,0 +1,12 @@
+# Obsidian workspace state — high churn, no review value
+#.obsidian/workspace.json
+#.obsidian/plugins/
+.trash/
+
+# Binary sources (~64 MB of PDFs). Already versioned by Obsidian Sync.
+# Git tracks the text layer — notes, templates, config — where diffs matter.
+#*.pdf
+
+# Python bytecode cache from running the validator's tests
+__pycache__/
+*.pyc
