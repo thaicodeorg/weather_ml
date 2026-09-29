@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sources/Youtube/WeatherModels/Anemoi animation.md",
+                "file": "Clippings/กรุงเทพฯ อ่วม! ฝนหนักสะสม เกือบ 300 มม. คลองระบายไม่ทัน Suthichai Live 26-9-2569.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anemoi animation"
+              "title": "กรุงเทพฯ อ่วม! ฝนหนักสะสม เกือบ 300 มม. คลองระบายไม่ทัน Suthichai Live 26-9-2569"
             }
           }
         ]
@@ -179,25 +179,34 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "bases:Create new base": false
     }
   },
-  "active": "d3c24cf72e37c89a",
+  "active": "b433fb1c9f1dbb8d",
   "lastOpenFiles": [
+    "09292026 google scholar.md",
+    "Clippings/ความทุกข์ของ ชาวแฟลตคลองจั่น-เคหะร่มเกล้า รองน้ำฝนใช้ ถูกตัดไฟ อาหารใกล้หมด Suthichai live 28-9-69.md",
+    "Clippings/กรุงเทพฯ อ่วม! ฝนหนักสะสม เกือบ 300 มม. คลองระบายไม่ทัน Suthichai Live 26-9-2569.md",
+    "Clippings/ทางเลี่ยงน้ำ ชัยนาท-ป่าสัก-อ่าวไทย 1.65 แสนล้าน หยุดน้ำท่วมกรุงเทพ  Suthichai Live 28-9-69.md",
+    "Clippings/บทเรียนจากวิกฤต ยกเครื่องระบบบริหารน้ำท่วม กทม.!  Suthichai Live 27-9-69.md",
+    "Clippings/ถอดบทเรียนจากหาดใหญ่ ถามคนหาดใหญ่บทเรียนคืออะไรที่นายกฯ ต้องถอด  Suthichai Live 27-9-69.md",
+    "Clippings/คลองรังสิตถึงฟลัดเวย์ น้ำฝั่งตะวันออกไปลงทะเลทางไหน  บันทึกแผนที่.md",
+    "Sources/Youtube/Bangkok2026/กทม.อยู่ปลายน้ำ ไม่ได้รับน้ำจากทิศเดียว! Suthichai Live 29-9-69.md",
+    "Sources/Youtube/WeatherModels/Anemoi animation.md",
+    "Clippings",
     "Sources/Youtube/WeatherModels/Tree Models.md",
     "Sources/Youtube/WeatherModels/Wrap up of the Machine Learning for Earth Systems Modelling Foundations and New Frontiers course.md",
     "Sources/Youtube/WeatherModels/Machine Learning in Earth System Modelling - Overview and Evolution.md",
     "Sources/Youtube/WeatherModels/The Use of AI in Destination Earth.md",
-    "Sources/Youtube/WeatherModels/Anemoi animation.md",
     "Fleeting Notes/NotebookLM/09282026 - weather forecase models machine learning thai.md",
     "Fleeting Notes/AI-Search/09282026-AnemoI.md",
     "Fleeting Notes/NotebookLM",
@@ -210,7 +219,6 @@
     "Fleeting Notes/AI-Search/Untitled 1.md",
     "Sources/Youtube/WeatherModels/Reanalysis (ERA5), Data Simulation and Emulators.md",
     "Sources/Youtube/Bangkok2026/ไหนว่าเอาอยู่!! น้ำท่วมหลายพื้นที่ กรุงเทพยังวิกฤต l EP.2289 l 28 ก.ย.69 lโหนกระแส.md",
-    "Clippings",
     "Files/images/Pasted image 20260928210019.png",
     "Files/images/Pasted image 20260928205256.png",
     "Fleeting Notes/abstract_Index/09282026 An Enhanced Hybrid CNN–LSTM Model for Improved Precipitation Forecasting.md",
@@ -221,14 +229,6 @@
     "AGENTS.md",
     "log.md",
     "Fleeting Notes/AI-Search/Fastnet vs Alan Tunring.md",
-    "Fleeting Notes/Chat/2026-09-27-graphcast-deprecation.md",
-    "Fleeting Notes/สรยุทธ สุทัศนะจินดา กรรมกรข่าว.md",
-    "Fleeting Notes/Money Chat Thailand.md",
-    "Fleeting Notes/index.md",
-    "Fleeting Notes/Chat/09272026-Deepseek Research.md",
-    "Fleeting Notes/AI-Search/09282026-rapid progress over the past few year in ML models for NwP.md",
-    "Fleeting Notes/AI-Search/09282026 Quantitative prediction forcasting.md",
-    "Fleeting Notes/abstract_Index/09282026-a cascade machine learning forecasting system for 15-day global weather forecast.md",
     "Sources/Research Paper/mdpi.com/Unconfirmed 404418.crdownload",
     "Sources/Research Paper/mdpi.com/atmosphere-17-00783.pdf",
     "Sources/Research Paper/mdpi.com/atmosphere-17-00762-v2.pdf"
