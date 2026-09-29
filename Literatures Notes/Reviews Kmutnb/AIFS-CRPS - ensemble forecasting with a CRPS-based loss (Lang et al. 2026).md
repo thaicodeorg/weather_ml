@@ -19,7 +19,7 @@ the continuous ranked probability score", Simon Lang et al., ECMWF,
 *npj Artificial Intelligence* 2:18 (2026), doi:10.1038/s44387-026-00073-7. 12 pages.
 
 Immutable copy: [[Sources/Markdown/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model]]
-Original: [[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf|s44387-026-00073-7, p.1]]
+Original: [[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=1|Abstract, p.1]]
 
 ## Research Objective
 
@@ -27,7 +27,7 @@ Whether a single trained model, optimised directly against a proper scoring rule
 can replace a physics-based ensemble at operational medium range and remain
 competitive at subseasonal range — and do so without the per-member training cost
 of diffusion-based ensemble models
-([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=1|s44387-026-00073-7, p.1]]).
+([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=1|Abstract, p.1]]).
 
 ## Problem
 
@@ -39,7 +39,7 @@ models with too little spread. Diffusion-based machine-learned ensembles were th
 existing alternative, but they typically require multiple denoising steps per
 forecast step. The paper takes a different route: model the uncertainty directly in
 the loss
-([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=2|s44387-026-00073-7, p.2]]).
+([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=2|Results, p.2]]).
 
 ## Gap Addressed in paper
 
@@ -48,27 +48,27 @@ for finite ensemble size, but it degenerates: if all members except one equal th
 verifying observation, the remaining member is unconstrained and can take any value
 without changing the score. Machine-learned models trained in float16 or lower make
 this more likely, and raising ensemble size to mitigate it scales compute linearly
-([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=9|s44387-026-00073-7, p.9]]).
+([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=9|Methods, p.9]]).
 
 The fix is the almost fair CRPS, a convex combination
 afCRPS_alpha = alpha * fCRPS + (1 - alpha) * CRPS, with alpha a hyperparameter in
 (0, 1], alpha = 1 recovering fCRPS, and training run at alpha = 0.95. The authors
 argue the correspondence to an unperturbed control member is natural here, because
 training is inherently probabilistic
-([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=9|s44387-026-00073-7, p.9]]).
+([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=9|Methods, p.9]]).
 
 ## Findings and conclusion
 
 A 50-member 15-day AIFS-CRPS ensemble beats the 9 km 50-member IFS ensemble for
 most upper-air variables, with improvements in the 5-20% range; scores at 100 hPa
 and above can degrade
-([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=2|s44387-026-00073-7, p.2]]).
+([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=2|Results, p.2]]).
 
 The headline is not accuracy but *calibration behaviour*. Unlike AIFS with an MSE
 loss, which loses small-scale detail with lead time, AIFS-CRPS members maintain
 variability close to the training distribution throughout the forecast range, with
 no damping of smaller scales visible
-([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=2|s44387-026-00073-7, p.2]]).
+([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=2|Results, p.2]]).
 That is the direct answer to the blurring problem the first AIFS paper accepted.
 
 At subseasonal range — up to 46 days, evaluated on 8-member reforecasts over 2018-2022
@@ -76,11 +76,11 @@ At subseasonal range — up to 46 days, evaluated on 8-member reforecasts over 2
 being trained only on forecasts up to 72 hours, including improved MJO predictions.
 The ECMWF ensemble spread would normally be inflated for reliability, but AIFS-CRPS
 ensemble-mean RMSE is substantially lower, so such inflation is likely unnecessary
-([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=6|s44387-026-00073-7, p.6]]).
+([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=2|Results, p.2]]).
 
 AIFS-ENS, the operational real-time system, is based on the AIFS-CRPS N320
 configuration described here
-([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=7|s44387-026-00073-7, p.7]]).
+([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=8|Methods, p.8]]).
 
 ## Limitations or Weakness
 
@@ -88,12 +88,12 @@ Calibration is not uniformly right. AIFS-CRPS tends to be over-dispersive in the
 extra-tropics, with ensemble spread larger than ensemble-mean RMSE, most visibly for
 500 hPa geopotential, and the spread-error correspondence is worse than for the IFS
 ensemble. In the tropics the sign reverses: spread is notably too small
-([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=3|s44387-026-00073-7, p.3]]).
+([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=3|Results, p.3]]).
 
 The authors name the sharpest limitation themselves: CRPS can have limited
 sensitivity to the tail properties of distributions, so assessment of extreme-event
 skill remains an open next step
-([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=6|s44387-026-00073-7, p.6]]).
+([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=6|Discussion, p.6]]).
 This sits awkwardly beside the field's main argument for probabilistic models.
 
 Stratospheric skill is reduced, which the authors attribute to the afCRPS
@@ -118,7 +118,7 @@ Include perturbed initial conditions during training rather than only at inferen
 Test extreme-event skill with a score that is sensitive to distribution tails.
 Revise the vertical loss scaling to recover the stratosphere. Explore
 higher-resolution states, revised initial-condition perturbations, and more forecast
-parameters ([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=7|s44387-026-00073-7, p.7]]).
+parameters ([[Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf#page=6|Discussion, p.6]]).
 
 ## How your search can fill gap
 

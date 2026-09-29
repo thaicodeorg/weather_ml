@@ -114,11 +114,19 @@ output rather than trusting that the command exited 0:
 
 ## This vault
 
-`Files/tools/pdf_to_markdown.py` implements the above and writes Obsidian source
-notes with the frontmatter `Templates/Source.md` requires. Run it with
-`python Files/tools/pdf_to_markdown.py`, then `python Files/tools/validate_notes.py`
-to confirm the notes satisfy the vault contract. It skips existing output unless
-given `--force`. See also `Files/tools/test_pdf_to_markdown.py`.
+The corpus is `Sources/Research Paper/**/*.pdf`, recursive — publisher subfolders
+(`arxiv.org/`, `IEEE/`, `ScienceDirect/`, `SpringerNature/`, `mdpi.com/`,
+`Nature.com/`, `icic/`, `ametsoc.org/`) hold most of it. Converted notes go to
+`Sources/Markdown/<subfolder>/<stem>.md`, mirroring the PDF tree, and carry the
+frontmatter `Templates/Source.md` requires.
+
+There is no converter script in this vault. Earlier versions of these skills
+referenced `Files/tools/pdf_to_markdown.py` and `Files/tools/validate_notes.py`;
+those files do not exist. Extract inline with pdfplumber at `x_tolerance` 2 or
+below, then check the output by hand. Two-column layouts, which several
+ScienceDirect and IEEE papers use, need per-page column cropping — that work is
+still outstanding, so say so rather than shipping interleaved text as a source
+note.
 
 ## Common Mistakes
 

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9d37cbf1cf8c84a0",
+        "id": "545d73a3a6366e7e",
         "type": "tabs",
         "children": [
           {
-            "id": "b433fb1c9f1dbb8d",
+            "id": "a193aecab10f88dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/กรุงเทพฯ อ่วม! ฝนหนักสะสม เกือบ 300 มม. คลองระบายไม่ทัน Suthichai Live 26-9-2569.md",
+                "file": "Sources/Youtube/Bangkok2026/กทม.ลาดกระบังวิกฤต ไร้ศูนย์บัญชาการส่งข้าว - น้ำ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "กรุงเทพฯ อ่วม! ฝนหนักสะสม เกือบ 300 มม. คลองระบายไม่ทัน Suthichai Live 26-9-2569"
+              "title": "กทม.ลาดกระบังวิกฤต ไร้ศูนย์บัญชาการส่งข้าว - น้ำ"
             }
           }
         ]
@@ -191,8 +191,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "b433fb1c9f1dbb8d",
+  "active": "d3c24cf72e37c89a",
   "lastOpenFiles": [
+    "Sources/Youtube/Bangkok2026/ผวา! น้ำหนุน คันกั้นน้ำพัง ซ้ำรอยน้ำท่วม ปี54  คนดังนั่งเคลียร์  29 ก.ย. 69 2.md",
+    "Sources/Youtube/Bangkok2026/ผวา! น้ำหนุน คันกั้นน้ำพัง ซ้ำรอยน้ำท่วม ปี54  คนดังนั่งเคลียร์  29 ก.ย. 69 1.md",
+    "Sources/Youtube/Bangkok2026/เตือนภัยรอบใหม่! น้ำล้นแนวคันกั้น สายไหม-คลองสามวา-หนองจอก Suthichai Live 29-9-2569.md",
+    "Sources/Youtube/Bangkok2026/ล้มเหลวโดยสิ้นเชิง  แฉเรียงหน่วยงาน ใครต้องรับผิด วิกฤตมหาน้ำท่วมกรุง !.md",
+    "Sources/Youtube/Bangkok2026/ผวา! น้ำหนุน คันกั้นน้ำพัง ซ้ำรอยน้ำท่วม ปี54  คนดังนั่งเคลียร์  29 ก.ย. 69.md",
+    "Sources/Youtube/Bangkok2026/กทม.ลาดกระบังวิกฤต ไร้ศูนย์บัญชาการส่งข้าว - น้ำ.md",
+    "Sources/Youtube/Bangkok2026/เอ้ สุชัชวีร์ แฉปมน้ำท่วม! กทม. แก้ผิดจุด  คมชัดลึก.md",
+    "Sources/Youtube/Bangkok2026/เลิกถอดบทเรียน ถอดกี่ครั้ง น้ำยังท่วมหนัก รัฐสอบตก ไหนบอกเอาอยู่ ข่าวมันส์เขี้ยวEP.46029ก.ย.69.md",
+    "Sources/Youtube/Bangkok2026/เบรกน้ำ 2 ชม. ทำเรื่อง! อาจารย์สิตางศุ์ เตือนแรง สั่งปิดเขื่อนขุนด่านฯ เสี่ยงวิบัติ  คมชัดลึก.md",
+    "Sources/Youtube/Bangkok2026/สิตางศุ์ เปิดจุดเสี่ยงน้ำท่วม ‘ทุกจังหวัด’ 1-3 ต.ค. กทม.ระวังน้ำหนุนสูง!  THE STANDARD NOW (HL).md",
+    "Sources/Youtube/Bangkok2026/มหาอุทกภัย กรุงเทพฯ ภัยธรรมชาติ หรือผิดพลาด    ตอบโจทย์  29 ก.ย. 69.md",
+    "Sources/Youtube/Bangkok2026/ทะเลสาบเมืองนนท์! แจ้งเตือนซ้ำยกของขึ้นที่สูงหนีน้ำด่วน   ลุยชนข่าว  29 ก.ย. 69.md",
     "09292026 google scholar.md",
     "Clippings/ความทุกข์ของ ชาวแฟลตคลองจั่น-เคหะร่มเกล้า รองน้ำฝนใช้ ถูกตัดไฟ อาหารใกล้หมด Suthichai live 28-9-69.md",
     "Clippings/กรุงเทพฯ อ่วม! ฝนหนักสะสม เกือบ 300 มม. คลองระบายไม่ทัน Suthichai Live 26-9-2569.md",
@@ -208,27 +220,15 @@
     "Sources/Youtube/WeatherModels/Machine Learning in Earth System Modelling - Overview and Evolution.md",
     "Sources/Youtube/WeatherModels/The Use of AI in Destination Earth.md",
     "Fleeting Notes/NotebookLM/09282026 - weather forecase models machine learning thai.md",
-    "Fleeting Notes/AI-Search/09282026-AnemoI.md",
     "Fleeting Notes/NotebookLM",
     "Files/images/Pasted image 20260928220156.png",
     "Docs/Anemoi Training/4_Training_Aneomoi.pdf",
     "Docs/Anemoi Training/Unconfirmed 222456.crdownload",
     "Docs/Anemoi Training",
     "Docs/New folder",
-    "Fleeting Notes/AI-Search/09282026 ERA 5.md",
-    "Fleeting Notes/AI-Search/Untitled 1.md",
-    "Sources/Youtube/WeatherModels/Reanalysis (ERA5), Data Simulation and Emulators.md",
-    "Sources/Youtube/Bangkok2026/ไหนว่าเอาอยู่!! น้ำท่วมหลายพื้นที่ กรุงเทพยังวิกฤต l EP.2289 l 28 ก.ย.69 lโหนกระแส.md",
     "Files/images/Pasted image 20260928210019.png",
     "Files/images/Pasted image 20260928205256.png",
-    "Fleeting Notes/abstract_Index/09282026 An Enhanced Hybrid CNN–LSTM Model for Improved Precipitation Forecasting.md",
     "Sources/Research Paper/mdpi.com/algorithms-19-00394-v2.pdf",
-    "Literatures Notes/index.md",
-    "index.md",
-    "Tech Folk Insights.md",
-    "AGENTS.md",
-    "log.md",
-    "Fleeting Notes/AI-Search/Fastnet vs Alan Tunring.md",
     "Sources/Research Paper/mdpi.com/Unconfirmed 404418.crdownload",
     "Sources/Research Paper/mdpi.com/atmosphere-17-00783.pdf",
     "Sources/Research Paper/mdpi.com/atmosphere-17-00762-v2.pdf"
