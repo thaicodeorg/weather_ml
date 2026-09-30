@@ -142,7 +142,7 @@ open the PDF at that line:
 Example, from an existing review:
 
 ```markdown
-([[Sources/Research Paper/2509.17658v1-fastnet-eng.pdf#page=12|5.2 Fine-tuning
+([[Sources/Research Paper/arxiv.org/2509.17658v1-fastnet-eng.pdf#page=12|5.2 Fine-tuning
 horizon, p.12]])
 ```
 

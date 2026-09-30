@@ -4,7 +4,7 @@ created: '2026-09-26'
 tags: []
 status: seed
 source_type: pdf
-origin: Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf
+origin: Sources/Research Paper/Nature.com/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf
 author: ''
 published: ''
 retrieved: '2026-09-26'

@@ -913,9 +913,9 @@ Immutable. Never edit these files; critique belongs in a literature note.
 
 ## Research Papers
 
-- `Sources/Research Paper/2406.01465v2-AIFS-ECMWF-data-driven-forcasting-system.pdf` — AIFS, ECMWF data-driven forecasting system (arXiv 2406.01465)
-- `Sources/Research Paper/2509.18994v1-update_to_ECMWF_machine_learned_weather_forcast_model_aifs.pdf` — AIFS Single, update to the ML weather forecast model (arXiv 2509.18994)
-- `Sources/Research Paper/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf` — AIFS-CRPS, ensemble forecasting with a CRPS-based loss
+- `Sources/Research Paper/arxiv.org/2406.01465v2-AIFS-ECMWF-data-driven-forcasting-system.pdf` — AIFS, ECMWF data-driven forecasting system (arXiv 2406.01465)
+- `Sources/Research Paper/arxiv.org/2509.18994v1-update_to_ECMWF_machine_learned_weather_forcast_model_aifs.pdf` — AIFS Single, update to the ML weather forecast model (arXiv 2509.18994)
+- `Sources/Research Paper/Nature.com/s44387-026-00073-7-AIFS-CRPS_ensemble_forcasting_using_model.pdf` — AIFS-CRPS, ensemble forecasting with a CRPS-based loss
 
 ## Report Papers
 

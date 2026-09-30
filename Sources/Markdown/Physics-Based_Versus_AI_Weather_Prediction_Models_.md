@@ -4,7 +4,7 @@ created: '2026-09-27'
 tags: []
 status: seed
 source_type: pdf
-origin: Sources/Research Paper/Physics-Based_Versus_AI_Weather_Prediction_Models_.pdf
+origin: Sources/Research Paper/Wiley/Physics-Based_Versus_AI_Weather_Prediction_Models_.pdf
 author: ''
 published: ''
 retrieved: '2026-09-27'

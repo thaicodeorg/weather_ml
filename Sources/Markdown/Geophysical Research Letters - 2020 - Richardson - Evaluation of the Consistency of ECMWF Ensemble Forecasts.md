@@ -4,7 +4,7 @@ created: '2026-09-27'
 tags: []
 status: seed
 source_type: pdf
-origin: Sources/Research Paper/Geophysical Research Letters - 2020 - Richardson -
+origin: Sources/Research Paper/Wiley/Geophysical Research Letters - 2020 - Richardson -
   Evaluation of the Consistency of ECMWF Ensemble Forecasts.pdf
 author: ''
 published: ''

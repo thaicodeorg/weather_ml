@@ -4,7 +4,7 @@ created: '2026-09-27'
 tags: []
 status: seed
 source_type: pdf
-origin: Sources/Research Paper/sciadv.aec1433-Physic-based.pdf
+origin: Sources/Research Paper/AAAS/sciadv.aec1433-Physic-based.pdf
 author: ''
 published: ''
 retrieved: '2026-09-27'

@@ -116,7 +116,7 @@ output rather than trusting that the command exited 0:
 
 The corpus is `Sources/Research Paper/**/*.pdf`, recursive — publisher subfolders
 (`arxiv.org/`, `IEEE/`, `ScienceDirect/`, `SpringerNature/`, `mdpi.com/`,
-`Nature.com/`, `icic/`, `ametsoc.org/`) hold most of it. Converted notes go to
+`Nature.com/`, `icic/`, `ametsoc.org/`, `Wiley/`, `AAAS/`, `Grenze/`) hold all of it. Converted notes go to
 `Sources/Markdown/<subfolder>/<stem>.md`, mirroring the PDF tree, and carry the
 frontmatter `Templates/Source.md` requires.
 

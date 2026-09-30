@@ -28,7 +28,7 @@ supplementary citation uses the main-text numbering for the first 18 sheets and 
 printed supplementary folio for sheets 21-82.
 
 Immutable copy: [[Sources/Markdown/2405.13063v3 foundation model for the earch system]]
-Original: [[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=1|Abstract, p.1]]
+Original: [[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=1|Abstract, p.1]]
 
 ## Research Objective
 
@@ -38,8 +38,8 @@ dedicated operational systems in those domains at orders of magnitude smaller
 computational cost. The four demonstrations are 5-day global air pollution at 0.4°,
 10-day ocean wave forecasting at 0.25°, 5-day tropical cyclone track forecasts, and
 10-day weather forecasting at 0.1°
-([[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=1|Abstract, p.1]],
-[[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=3|2 Aurora: a flexible 3D foundation model for the Earth system, p.3]]).
+([[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=1|Abstract, p.1]],
+[[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=3|2 Aurora: a flexible 3D foundation model for the Earth system, p.3]]).
 
 ## Problem
 
@@ -47,12 +47,12 @@ Earth system forecasting systems are computationally demanding, require
 purpose-built supercomputers and dedicated engineering teams, are built out of
 decades-old interconnected modules that are hard to improve, and incorporate numerous
 approximations such as sub-grid-scale parameterizations
-([[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=2|1 Introduction, p.2]]).
+([[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=2|1 Introduction, p.2]]).
 The 2023 ML weather breakthrough replaced only the numerical solver at 0.25°, leaving
 ocean dynamics, wave modelling and atmospheric chemistry untouched, and leaving the
 question of whether ML can outperform complex extreme-weather systems — which rely on
 human analysis of many models — unexplored
-([[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=2|1 Introduction, p.2]]).
+([[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=2|1 Introduction, p.2]]).
 
 ## Gap Addressed in paper
 
@@ -66,16 +66,16 @@ wave variables undefined over land and sea ice; (3) extension beyond medium-rang
 atmosphere-only forecasting to chemistry, waves and tropical cyclones; and (4)
 high-resolution 0.1° forecasting that no prior AI model could reach because 0.1° data
 only goes back to 2016, made possible by pretraining
-([[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=2|Fig. 1, p.2]],
-[[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=4|3 Modelling atmospheric chemistry and air quality, p.4]],
-[[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=8|6 High-resolution operational weather forecasting, p.8]]).
+([[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=2|Fig. 1, p.2]],
+[[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=4|3 Modelling atmospheric chemistry and air quality, p.4]],
+[[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=8|6 High-resolution operational weather forecasting, p.8]]).
 
 The scaling argument is the paper's transferable claim: pretraining on more diverse
 data systematically improves validation performance (Supplementary G), validation
 improves by approximately 6% for every 10x increase in model size, and against IFS and
 GraphCast at 0.25° Aurora wins on over 91% of targets
-([[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=3|2 Aurora: a flexible 3D foundation model for the Earth system, p.3]],
-[[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=29|H Comparison against GraphCast, Pangu, and IFS HRES at 0.25, p.29]]).
+([[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=3|2 Aurora: a flexible 3D foundation model for the Earth system, p.3]],
+[[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=29|H Comparison against GraphCast, Pangu, and IFS HRES at 0.25, p.29]]).
 
 ## Findings and conclusion
 
@@ -84,14 +84,14 @@ Service (CAMS), which extends IFS with chemistry modules at roughly ten times th
 on 74% of all targets across lead times and on 89% of variables at three days, while
 generating each hour of lead time in about 1.1 s on a single A100 GPU — roughly a
 50,000x speed-up. Fine-tuning the pretrained model beats training from scratch by an
-average of 54% ([[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=4|Fig. 2, p.4]],
-[[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=5|3 Modelling atmospheric chemistry and air quality, p.5]]).
+average of 54% ([[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=4|Fig. 2, p.4]],
+[[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=5|3 Modelling atmospheric chemistry and air quality, p.5]]).
 
 Ocean waves. Against the operational IFS HRES-WAM at 0.25°, Aurora matches or beats it
 on 86% of wave variables across all lead times and 91% at three days, including
 significant wave height and mean wave direction during Typhoon Nanmadol
-([[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=5|4 Modeling ocean wave dynamics, p.5]],
-[[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=6|Fig. 3, p.6]]).
+([[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=5|4 Modeling ocean wave dynamics, p.5]],
+[[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=6|Fig. 3, p.6]]).
 
 Tropical cyclones. A single deterministic Aurora run beats the official track forecasts
 of every agency tested (NHC, CMA, CWA, JTWC, JMA, BoM) in all basins and at all lead
@@ -101,7 +101,7 @@ Doksuri landfall over the Northern Philippines that official forecasts missed. T
 paper claims this is the first time an ML model has surpassed full operational cyclone
 track forecasts up to five days, and it also beats the headline models of the NHC track
 verification report
-([[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=7|5 Predicting tropical cyclone tracks, p.7]]).
+([[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=7|5 Predicting tropical cyclone tracks, p.7]]).
 
 High-resolution weather. Fine-tuned at 0.1° and scored under the operational protocol,
 Aurora beats IFS HRES on 92% of target variable-level-lead-time combinations, with a
@@ -109,13 +109,13 @@ reduction in RMSE of up to 24% after 12 hours of lead time, and outperforms IFS 
 weather stations across all lead times to 10 days. During Storm Ciarán it was the only
 AI model that predicted the abrupt rise in maximum 10-m wind speed, because the model
 was run without LoRA fine-tuning
-([[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=8|Fig. 5, p.8]],
-[[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=9|6 High-resolution operational weather forecasting, p.9]]).
+([[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=8|Fig. 5, p.8]],
+[[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=9|6 High-resolution operational weather forecasting, p.9]]).
 
 Conclusion: every fine-tuning experiment took a small team 4-8 weeks, against years of
 development for dynamical baselines, and the authors argue the same model could be
 fine-tuned to any Earth system prediction task
-([[Sources/Research Paper/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=9|7 Discussion, p.9]]).
+([[Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf#page=9|7 Discussion, p.9]]).
 
 ## Limitations or Weakness
 

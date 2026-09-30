@@ -4,7 +4,7 @@ created: '2026-09-27'
 tags: []
 status: seed
 source_type: pdf
-origin: Sources/Research Paper/Meteorological Applications - 2024 - Blunn - Machine
+origin: Sources/Research Paper/Wiley/Meteorological Applications - 2024 - Blunn - Machine
   learning bias correction and downscaling of urban heatwave temperature.pdf
 author: ''
 published: ''
