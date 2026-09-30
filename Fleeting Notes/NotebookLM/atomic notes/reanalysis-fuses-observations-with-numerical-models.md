@@ -2,8 +2,8 @@
 type: atomic
 created: 2026-09-29
 status: seed
-confidence: low
-source: "[[Fleeting Notes/NotebookLM/09282026 - weather forecase models machine learning english]]"
+confidence: high
+source: "[[Sources/Markdown/SpringerNature/s13351-025-4905-8-Overview-and-prospect]]"
 tags: [reanalysis, data-assimilation]
 ---
 
@@ -11,22 +11,16 @@ tags: [reanalysis, data-assimilation]
 
 ## Claim
 
-Data reanalysis reconstructs the most complete historical atmospheric state
-possible by combining real observations with numerical weather and climate
-models through data assimilation. The output is a grid that is uniform in both
-space and time, physically consistent, and complete even in areas or periods
-with no measurement stations.
+Data reanalysis reconstructs a temporally continuous, physically consistent 4D state of the historical atmosphere by combining multi-source observations with numerical weather models via data assimilation. The resulting gridded fields provide the foundational training and verification corpora for machine-learning weather prediction.
 
 ## Evidence
 
-The parent note defines reanalysis exactly this way, listing the observation
-types involved: satellite signals, ground stations, weather balloons, aircraft,
-and ships. The result is described as gridded, physically consistent data, which
-is the property that makes it usable as a training target rather than raw
-measurements.
+- In [[Sources/Markdown/SpringerNature/s13351-025-4905-8-Overview-and-prospect]], Lei et al. detail how data assimilation algorithms (e.g. 4D-Var, EnKF) synthesize heterogeneous observations (satellite radiances, radiosondes, aircraft, surface stations) with physics-based dynamical cores, producing comprehensive reanalyses such as ERA5.
+- In [[Sources/Markdown/ScienceDirect/1-s2.0-S2950630125000079-main-ECMWF-social-impact]], Venutia et al. document that global machine learning models worldwide (AIFS, GraphCast, Pangu-Weather, FourCastNet) rely almost exclusively on ERA5 reanalysis as their learning dataset, making data assimilation the indispensable empirical backbone of data-driven forecasting.
 
 ## Related
 
 - [[reanalysis-fills-gaps-over-oceans-and-poles]]
 - [[era5-covers-1940-to-present]]
 - [[era5-is-the-base-training-set-of-global-weather-ai]]
+- [[Permanent Notes/global-weather-ai-models-inherit-reanalysis-biases]]

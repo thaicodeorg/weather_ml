@@ -5,8 +5,8 @@ tags: []
 status: seed
 source_type: pdf
 origin: Sources/Research Paper/SpringerNature/s00376-024-4173-z-GlobalEnsemblePrediction.pdf
-author: ''
-published: ''
+author: 'Liu, Chen, Zhu, Liu, Chen, Huo, Peng, Ma, Gong'
+published: 2025
 retrieved: '2026-09-30'
 immutable: true
 ---

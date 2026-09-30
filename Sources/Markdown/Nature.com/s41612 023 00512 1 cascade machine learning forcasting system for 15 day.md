@@ -5,8 +5,8 @@ tags: []
 status: seed
 source_type: pdf
 origin: Sources/Research Paper/Nature.com/s41612-023-00512-1-cascade-machine-learning-forcasting-system-for-15-day.pdf
-author: ''
-published: ''
+author: 'Chen, Zhong, Zhang, Cheng, Xu, Qi, Li'
+published: 2023
 retrieved: '2026-09-30'
 immutable: true
 ---

@@ -7,14 +7,13 @@ course: Kmutnb seminar
 due:
 confidence: medium
 sources:
-  - "[[Sources/Markdown/sciadv.aec1433-Physic-based.md]]"
+  - "[[Sources/Markdown/AAAS/sciadv.aec1433-Physic-based.md]]"
 ---
 
 ## Physics-based models outperform AI weather forecasts of record-breaking extremes
 
 ## Source Information
 
-"Physics-based models outperform AI weather forecasts of record-breaking extremes" by Zhongwei Zhang, Erich Fischer, Jakob Zscheischler, and Sebastian Engelke appears in *Science Advances* 12(18) eaec1433 (2026), spanning eleven pages on deterministic versus physics-based forecasting of extremes [[Sources/Research Paper/AAAS/sciadv.aec1433-Physic-based.pdf#page=1|Introduction, p.1]]. Published on 29 April 2026 under a CC BY licence, the immutable excerpt is archived at [[Sources/Markdown/sciadv.aec1433-Physic-based.md]] with page anchors into the original PDF [[Sources/Research Paper/AAAS/sciadv.aec1433-Physic-based.pdf#page=10|Supplementary Materials, p.10]].
 
 ## Research Objective
 

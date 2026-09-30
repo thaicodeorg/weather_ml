@@ -4,6 +4,41 @@
     "type": "split",
     "children": [
       {
+        "id": "b47030f9be161a0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed6bca5d54ef8cde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sources/Youtube/Bangkok2026/‘น้ำเหนือ-หนุน-ฝนถล่ม’ เจ้าพระยาเร่งระบายจน 11 จังหวัดผวา น่ากังวลแค่ไหน  THE STANDARD NOW (HL).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "‘น้ำเหนือ-หนุน-ฝนถล่ม’ เจ้าพระยาเร่งระบายจน 11 จังหวัดผวา น่ากังวลแค่ไหน  THE STANDARD NOW (HL)"
+            }
+          },
+          {
+            "id": "382200c6f1219692",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sources/Youtube/Bangkok2026/กรุงเทพไม่รอด  รับมือด่วน น้ำทะเล+ น้ำเหนือหนุน 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "กรุงเทพไม่รอด  รับมือด่วน น้ำทะเล+ น้ำเหนือหนุน 1"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
         "id": "545d73a3a6366e7e",
         "type": "tabs",
         "children": [
@@ -13,12 +48,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Research Question/09302026-research-question.md",
+                "file": "Literatures Notes/Reviews Kmutnb/A foundation model for the Earth system (Bodnar et al. 2025).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09302026-research-question"
+              "title": "A foundation model for the Earth system (Bodnar et al. 2025)"
             }
           }
         ]
@@ -191,8 +226,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "a193aecab10f88dc",
+  "active": "d3c24cf72e37c89a",
   "lastOpenFiles": [
+    "AI/AI research/aifs_regional_downscaler.py",
+    "Fleeting Notes/Research Question/bangkok-2026-flood-crisis-synthesis.md",
+    "AI/AI research/prisma-slr-extraction-table.md",
+    "Docs/anemoi-workflow-guide.md",
+    "Sources/Youtube/Bangkok2026/ฟัง 2 มุม โครงการระบายน้ำชัยนาท-ป่าสัก-อ่าวไทย ทางรอดน้ำท่วมใหญ่  ตอบโจทย์  Highlight.md",
+    "Sources/Youtube/Bangkok2026/กรุงเทพไม่รอด  รับมือด่วน น้ำทะเล+ น้ำเหนือหนุน 1.md",
+    "Sources/Youtube/Bangkok2026/‘น้ำเหนือ-หนุน-ฝนถล่ม’ เจ้าพระยาเร่งระบายจน 11 จังหวัดผวา น่ากังวลแค่ไหน  THE STANDARD NOW (HL).md",
+    "Sources/Youtube/Bangkok2026/วิเคราะห์สด !  เตือนภัยตุลาคม น้ำท่วมยังเสี่ยง  (ผศ.ดร.ธรณ์ ธำรงนาวาสวัสดิ์).md",
+    "Sources/Youtube/Bangkok2026/เขื่อนเจ้าพระยา เขื่อนที่ไม่เก็บน้ำ ทำหน้าที่อะไร ประตูน้ำของภาคกลางที่ชัยนาท  บันทึกแผนที่.md",
+    "Sources/Youtube/Bangkok2026/🔴LIVE คุยข้ามช็อต  เจ้าพระยาระบายเพิ่ม! น้ำเหนือ+น้ำหนุน จ่อถล่ม “คนกรุง”  30 ก.ย.69.md",
+    "Sources/Youtube/Bangkok2026/ผวาทุกหย่อมหญ้า เตือน! น้ำเหนือหนุน l EP.2291 l 30 ก.ย.69 lโหนกระแส 1.md",
+    "Sources/Youtube/Bangkok2026/บอกได้คำเดียว เละ !!ดร.รอยล เปิดปมน้ำท่วม ทำโคตรตาสว่าง แต่ฟังๆไปมีอึ้ง !!.md",
+    "Sources/Youtube/Bangkok2026/เจาะลึก น้ำเหนือ-ทะเลหนุน จุดไหนเสี่ยงน้ำท่วม  ตอบโจทย์  30 ก.ย. 69.md",
+    "Sources/Youtube/WeatherModels/Discover Anemoi 2026 1 Introduction and Datasets.md",
+    "Sources/Youtube/Bangkok2026/กรุงเทพไม่รอด  รับมือด่วน น้ำทะเล+ น้ำเหนือหนุน.md",
+    "Sources/Youtube/WeatherModels/The Unexpected Rise of AI Weather Forecasting.md",
+    "Sources/Youtube/Bangkok2026/ผวาทุกหย่อมหญ้า เตือน! น้ำเหนือหนุน l EP.2291 l 30 ก.ย.69 lโหนกระแส.md",
+    "Sources/Youtube/Bangkok2026/ประเมินสถานการณ์น้ำ กับ รศ.สิตางศุ์ พิลัยหล้า.md",
+    "Sources/Research Paper/arxiv.org/2405.13063v3-foundation-model-for-the-earch-system.pdf",
+    "Literatures Notes/Reviews Kmutnb/A foundation model for the Earth system (Bodnar et al. 2025).md",
+    "Fleeting Notes/Research Question/09302026-research-question.md",
+    "Docs/AA2d6hVU.jpg",
+    "Docs/AA2d6hVU.jpg.crdownload",
     "AGENTS.md",
     "opencode.json",
     "skills/writing-skills/examples/CLAUDE_MD_TESTING.md",
@@ -204,31 +262,9 @@
     "skills/writing-skills/examples",
     "skills/writing-skills/anthropic-best-practices.md",
     "skills/writing-skills",
-    "skills/writing-plans/SKILL.md",
-    "skills/writing-plans/plan-document-reviewer-prompt.md",
     "skills/writing-plans",
-    "skills/verification-before-completion/SKILL.md",
     "skills/verification-before-completion",
-    "skills/using-superpowers/references/pi-tools.md",
-    "skills/using-superpowers/references/hermes-tools.md",
-    "skills/using-superpowers/references/codex-tools.md",
-    "skills/using-superpowers/references/gemini-tools.md",
-    "skills/using-superpowers/references/antigravity-tools.md",
-    "skills/using-superpowers/SKILL.md",
     "skills/using-superpowers/references",
-    "skills/using-superpowers",
-    "skills/using-git-worktrees/SKILL.md",
-    "skills/using-git-worktrees",
-    "skills/test-driven-development/writing-good-tests.md",
-    "skills/test-driven-development/SKILL.md",
-    "skills/systematic-debugging/test-pressure-3.md",
-    "skills/systematic-debugging/test-pressure-2.md",
-    "skills/systematic-debugging/test-pressure-1.md",
-    "skills/systematic-debugging/test-academic.md",
-    "skills/systematic-debugging/SKILL.md",
-    "skills/systematic-debugging/root-cause-tracing.md",
-    "skills/systematic-debugging/defense-in-depth.md",
-    "skills/systematic-debugging/CREATION-LOG.md",
     "Files/images/Pasted image 20260930104948.png",
     "Files/images/Pasted image 20260930104603.png",
     "Files/images/Pasted image 20260930103748.png",

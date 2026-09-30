@@ -7,14 +7,13 @@ course: Kmutnb seminar
 due:
 confidence: medium
 sources:
-  - "[[Sources/Markdown/Geophysical Research Letters - 2026 - Davis - Physics‐Based Versus AI Weather Prediction Models  A Comparative Performance.md]]"
+  - "[[Sources/Markdown/Wiley/Geophysical Research Letters - 2026 - Davis - Physics-Based Versus AI Weather Prediction Models  A Comparative Performance.md]]"
 ---
 
 ## Physics-Based Versus AI Weather Prediction Models (Davis et al. 2026)
 
 ## Source Information
 
-"Physics-Based Versus AI Weather Prediction Models: A Comparative Performance Assessment of Atmospheric River Prediction" by Isaac W. Davis, Aneesh Subramanian, Timothy B. Higgins, Agniv Sengupta, and Luca Delle Monache is published in *Geophysical Research Letters* 53 e2025GL117609 (2026) with DOI 10.1029/2025GL117609, analysing 152 atmospheric-river forecasts over the U.S. West Coast [[Sources/Research Paper/Wiley/Geophysical Research Letters - 2026 - Davis - Physics‐Based Versus AI Weather Prediction Models  A Comparative Performance.pdf#page=1|1. Introduction, p.1]]. The immutable Markdown extract is archived at [[Sources/Markdown/Geophysical Research Letters - 2026 - Davis - Physics‐Based Versus AI Weather Prediction Models  A Comparative Performance.md]].
 
 ## Research Objective
 

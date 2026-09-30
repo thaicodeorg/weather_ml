@@ -5,8 +5,8 @@ tags: []
 status: seed
 source_type: pdf
 origin: Sources/Research Paper/SpringerNature/s41586-025-08897-0-End-to-End-data-driven.pdf
-author: ''
-published: ''
+author: 'Allen, Markou, Tebbutt, Requeima, Bruinsma, Andersson, Herzog, Lane, Chantry, Hosking, Turner'
+published: 2025-03-20
 retrieved: '2026-09-30'
 immutable: true
 ---

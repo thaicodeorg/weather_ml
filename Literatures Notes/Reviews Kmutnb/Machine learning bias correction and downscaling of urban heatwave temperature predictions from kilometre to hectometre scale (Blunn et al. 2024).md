@@ -7,7 +7,7 @@ course: Kmutnb seminar
 due: 
 confidence: medium
 sources:
-  - "[[Sources/Markdown/Meteorological Applications - 2024 - Blunn - Machine learning bias correction and downscaling of urban heatwave temperature.md]]"
+  - "[[Sources/Markdown/Wiley/Meteorological Applications - 2024 - Blunn - Machine learning bias correction and downscaling of urban heatwave temperature.md]]"
 ---
 
 ## Machine learning bias correction and downscaling of urban heatwave temperature predictions from kilometre to hectometre scale (Blunn et al. 2024)

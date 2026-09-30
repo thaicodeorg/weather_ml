@@ -2,8 +2,8 @@
 type: atomic
 created: 2026-09-29
 status: seed
-confidence: low
-source: "[[Fleeting Notes/NotebookLM/09282026 - weather forecase models machine learning english]]"
+confidence: high
+source: "[[Sources/Markdown/arxiv.org/2406.01465v2-AIFS-ECMWF-data-driven-forcasting-system]]"
 tags: [ecmwf-aifs, gnn, anemoi]
 ---
 
@@ -11,18 +11,12 @@ tags: [ecmwf-aifs, gnn, anemoi]
 
 ## Claim
 
-AIFS uses a graph neural network to model relationships between weather
-variables around the globe, implemented on ECMWF's open-source Anemoi
-framework. It ships in two forms: AIFS Single for deterministic forecasts and an
-ensemble system generating 50 members.
+AIFS uses an encoder-processor-decoder graph neural network (GNN) on a multiscale icosahedral mesh to model global atmospheric dynamics, implemented on ECMWF's open-source Anemoi framework.
 
 ## Evidence
 
-The parent note gives GNN as the core architecture in the comparison tables and
-describes the two-system split explicitly. It also states that AIFS was trained
-initially on ERA5 in Zarr format and then takes live initial conditions from the
-data assimilation system every 6 hours, so the training data and the operational
-inference data are not the same source.
+- In [[Sources/Markdown/arxiv.org/2406.01465v2-AIFS-ECMWF-data-driven-forcasting-system]], Lang et al. detail the AIFS architecture: an encoder mapping from an N320 Gaussian grid (~31 km) into an icosahedral latent mesh, a message-passing GNN processor modeling 6-hour time steps, and a decoder mapping back to physical atmospheric fields.
+- In [[Sources/Markdown/ScienceDirect/1-s2.0-S2950630125000079-main-ECMWF-social-impact]], Venutia et al. corroborate that AIFS is underpinned by the `Anemoi` toolkit, which provides massively parallel AI-driven forecast pipelines, serving as the basis for national meteorological services across Europe to train regional models.
 
 ## Related
 

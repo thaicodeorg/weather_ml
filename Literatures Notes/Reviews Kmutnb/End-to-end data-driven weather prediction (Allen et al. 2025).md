@@ -93,7 +93,7 @@ outperforms station-corrected HRES at all lead times
 The NDFD baseline is an ensemble of more than 30 models including IFS and GFS plus
 human forecaster input at about 2-km resolution, so this is a strong operational target
 for a 1.50° model
-([[Sources/Research Paper/SpringerNature/s41586-025-08897-0-End-to-End-data-driven.pdf#page=10|Baselines, p.10]]).
+([[Sources/Research Paper/SpringerNature/s41586-025-08897-0-End-to-End-data-driven.pdf#page=10|Baselines]]).
 
 End-to-end fine-tuning of the encoder-processor-decoder composition for specific
 regions and variables gave 6% MAE reductions in 2-m temperature over Europe, West
@@ -104,7 +104,7 @@ generation time of about one second on four NVIDIA A100 GPUs against roughly 1,0
 hours for HRES data assimilation and forecasting alone
 ([[Sources/Research Paper/SpringerNature/s41586-025-08897-0-End-to-End-data-driven.pdf#page=6|End-to-end tuning, p.1177]],
 [[Sources/Research Paper/SpringerNature/s41586-025-08897-0-End-to-End-data-driven.pdf#page=7|Discussion, p.1178]],
-[[Sources/Research Paper/SpringerNature/s41586-025-08897-0-End-to-End-data-driven.pdf#page=12|Model size and training costs, p.12]]).
+[[Sources/Research Paper/SpringerNature/s41586-025-08897-0-End-to-End-data-driven.pdf#page=12|Model size and training costs]]).
 
 The encoder ablation shows which observations matter: LEO sounder data are the single
 most important source, in situ data matter most for surface variables but also improve
